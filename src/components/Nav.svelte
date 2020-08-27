@@ -93,11 +93,11 @@
 
       <a 
         aria-current="{segment === 'about' ? 'page' : undefined}" 
-        href="about" 
-        class:has-background-light={segment === 'about'}
-        class:has-text-weight-semibold={segment === 'about'}
+        href="dashboard" 
+        class:has-background-light={segment === 'dashboard'}
+        class:has-text-weight-semibold={segment === 'dashboard'}
         class="navbar-item">
-        About
+        Dashboard
       </a>
     </div>
 

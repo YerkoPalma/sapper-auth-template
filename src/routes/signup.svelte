@@ -38,7 +38,6 @@
           if (!res.ok) {
             errors = Object.assign(errors, json)
           } else {
-            // TODO: Redirecto to signin page
             goto('/')
           }
         } else {

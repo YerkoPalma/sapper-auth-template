@@ -27,7 +27,7 @@ mainly the auth system, but there are other things also:
 
 - Use [Bulma][Bulma] framework through [Svelma][Svelma].
 - Use [dotenv][dotenv] for env variables (you should create your `.env` file since is gitignored).
-- Use node-sass with [svelte-preprocess][svelte-preprocess] so you can use sass on your components.
+- Use sass with [svelte-preprocess][svelte-preprocess] so you can use sass on your components.
 - Use mongodb with Mongoose ORM.
 
 ## Final notes

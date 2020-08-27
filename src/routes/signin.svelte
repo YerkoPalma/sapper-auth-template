@@ -30,7 +30,6 @@
       if (!res.ok) {
         errors = Object.assign(errors, json)
       } else {
-        // TODO: Redirecto to index or dashboard page
         const { name, email } = json
         session.set({ user: { name, email } })
         goto('/')
