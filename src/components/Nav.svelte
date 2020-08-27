@@ -1,5 +1,5 @@
 <script>
-  import { Toast } from 'svelma'
+  import { Toast } from 'svelma/dist/module'
   import { stores } from '@sapper/app'
   const { session } = stores()
   export let segment
@@ -7,7 +7,7 @@
 
   $: if ($session.user) {
     user = $session.user
-    Toast.create({ message: `Hello ${user.name}` })
+    Toast.create({ message: `Hello ${user.name}`, background: 'has-background-dark' })
   }
 
   import { onMount,afterUpdate } from 'svelte'

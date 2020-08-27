@@ -87,6 +87,7 @@ export default {
       resolve({
         dedupe: ['svelte']
       }),
+      postcss(),
       commonjs()
     ],
     external: Object.keys(pkg.dependencies).concat(require('module').builtinModules),
